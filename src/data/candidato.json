@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": "cnd-1001",
+    "nombre": "Ana Sofía Ruiz",
+    "correo": "ana.ruiz@ejemplo.com",
+    "telefono": "+52 55 9876 5432",
+    "cvActual": {
+      "nombreArchivo": "Ana_Ruiz_CV_React.pdf",
+      "url": "https://ejemplo.com/files/cv/ana-ruiz.pdf",
+      "fechaSubida": "2026-07-01T14:20:00Z"
+    },
+    "fotoPerfil": "https://randomuser.me/api/portraits/women/44.jpg"
+  }
+}

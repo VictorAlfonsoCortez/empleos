@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "id": "pos-1",
+      "vacanteId": "v-101",
+      "candidatoId": "cnd-1001",
+      "fechaPostulacion": "2026-07-11T10:15:00Z",
+      "estatus": "Enviada",
+      "cvUrl": "https://ejemplo.com/files/cv/ana-ruiz.pdf",
+      "cartaPresentacion": "Me encantaría unirme a TechNova porque admiro sus productos."
+    },
+    {
+      "id": "pos-2",
+      "vacanteId": "v-105",
+      "candidatoId": "cnd-1001",
+      "fechaPostulacion": "2026-07-10T14:30:00Z",
+      "estatus": "En revisión",
+      "cvUrl": "https://ejemplo.com/files/cv/ana-ruiz.pdf",
+      "cartaPresentacion": ""
+    },
+    {
+      "id": "pos-3",
+      "vacanteId": "v-109",
+      "candidatoId": "cnd-1001",
+      "fechaPostulacion": "2026-06-25T09:00:00Z",
+      "estatus": "Rechazada",
+      "cvUrl": "https://ejemplo.com/files/cv/ana-ruiz.pdf",
+      "cartaPresentacion": "Adjunto mi CV para la posición de Data Scientist. Tengo conocimientos en Python."
+    },
+    {
+      "id": "pos-4",
+      "vacanteId": "v-111",
+      "candidatoId": "cnd-1001",
+      "fechaPostulacion": "2026-07-07T16:20:00Z",
+      "estatus": "Entrevista",
+      "cvUrl": "https://ejemplo.com/files/cv/ana-ruiz.pdf",
+      "cartaPresentacion": "Experiencia administrando servidores."
+    },
+    {
+      "id": "pos-5",
+      "vacanteId": "v-102",
+      "candidatoId": "cnd-1001",
+      "fechaPostulacion": "2026-07-09T11:10:00Z",
+      "estatus": "Enviada",
+      "cvUrl": "https://ejemplo.com/files/cv/ana-ruiz.pdf",
+      "cartaPresentacion": ""
+    },
+    {
+      "id": "pos-6",
+      "vacanteId": "v-103",
+      "candidatoId": "cnd-1001",
+      "fechaPostulacion": "2026-07-02T10:00:00Z",
+      "estatus": "Aceptada",
+      "cvUrl": "https://ejemplo.com/files/cv/ana-ruiz.pdf",
+      "cartaPresentacion": "Gran motivación para el puesto freelance."
+    }
+  ],
+  "total": 6,
+  "page": 1,
+  "limit": 10
+}

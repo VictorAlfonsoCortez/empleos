@@ -1,0 +1,12 @@
+{
+  "data": [
+    { "id": "cat-1", "nombre": "Tecnología" },
+    { "id": "cat-2", "nombre": "Ventas" },
+    { "id": "cat-3", "nombre": "Diseño" },
+    { "id": "cat-4", "nombre": "Administración" },
+    { "id": "cat-5", "nombre": "Recursos Humanos" },
+    { "id": "cat-6", "nombre": "Marketing" },
+    { "id": "cat-7", "nombre": "Atención al Cliente" }
+  ],
+  "total": 7
+}
