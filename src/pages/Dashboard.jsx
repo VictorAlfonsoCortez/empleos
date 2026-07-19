@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Row, Col, Card, Table, Badge, Spinner } from 'react-bootstrap';
+import { Container, Row, Col, Card, Table, Badge, Spinner, Form, Button } from 'react-bootstrap';
+import { FaDownload } from 'react-icons/fa';
 import { api } from '../services/mockApi';
 
 const Dashboard = () => {
   const [profile, setProfile] = useState(null);
   const [applications, setApplications] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  // States for CV Data
+  const [resumen, setResumen] = useState('');
+  const [habilidades, setHabilidades] = useState('');
+  const [experiencia, setExperiencia] = useState('');
+  const [educacion, setEducacion] = useState('');
 
   useEffect(() => {
     Promise.all([
@@ -20,6 +27,47 @@ const Dashboard = () => {
       setLoading(false);
     });
   }, []);
+
+  const handleDownloadCV = (e) => {
+    e.preventDefault();
+    const cvContent = `==================================================
+              CURRICULUM VITAE
+==================================================
+
+DATOS PERSONALES
+--------------------------------------------------
+Nombre:   ${profile?.nombre || ''}
+Correo:   ${profile?.correo || ''}
+Teléfono: ${profile?.telefono || ''}
+
+RESUMEN PROFESIONAL
+--------------------------------------------------
+${resumen || 'No especificado.'}
+
+HABILIDADES
+--------------------------------------------------
+${habilidades || 'No especificadas.'}
+
+EXPERIENCIA LABORAL
+--------------------------------------------------
+${experiencia || 'No especificada.'}
+
+EDUCACIÓN
+--------------------------------------------------
+${educacion || 'No especificada.'}
+
+==================================================
+Generado automáticamente en EmpleosTest.
+`;
+
+    const blob = new Blob([cvContent], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `CV_${(profile?.nombre || 'Candidato').replace(/\s+/g, '_')}.txt`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
 
   const getStatusBadge = (status) => {
     switch (status) {
@@ -45,7 +93,7 @@ const Dashboard = () => {
       <h2 className="fw-bold mb-4">Mi Perfil</h2>
       <Row>
         <Col lg={4} className="mb-4">
-          <Card className="border-0 shadow-sm rounded-4 text-center p-4">
+          <Card className="border-0 shadow-sm rounded-4 text-center p-4 mb-4">
             <Card.Body>
               <img 
                 src={profile?.fotoPerfil} 
@@ -66,6 +114,63 @@ const Dashboard = () => {
                 </div>
               </div>
             </Card.Body>
+          </Card>
+
+          {/* Section to add CV Data and download */}
+          <Card className="border-0 shadow-sm rounded-4 p-4">
+            <h5 className="fw-bold mb-3">Generador de CV</h5>
+            <Form onSubmit={handleDownloadCV}>
+              <Form.Group className="mb-3">
+                <Form.Label className="small fw-semibold">Resumen Profesional</Form.Label>
+                <Form.Control 
+                  as="textarea" 
+                  rows={3} 
+                  placeholder="Describe brevemente tu perfil..." 
+                  value={resumen}
+                  onChange={(e) => setResumen(e.target.value)}
+                />
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="small fw-semibold">Habilidades</Form.Label>
+                <Form.Control 
+                  type="text" 
+                  placeholder="Ej: React, Node.js, Inglés avanzado..." 
+                  value={habilidades}
+                  onChange={(e) => setHabilidades(e.target.value)}
+                />
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="small fw-semibold">Experiencia Laboral</Form.Label>
+                <Form.Control 
+                  as="textarea" 
+                  rows={3} 
+                  placeholder="Ej: Desarrollador en TechNova (2024-Presente)..." 
+                  value={experiencia}
+                  onChange={(e) => setExperiencia(e.target.value)}
+                />
+              </Form.Group>
+
+              <Form.Group className="mb-3">
+                <Form.Label className="small fw-semibold">Educación</Form.Label>
+                <Form.Control 
+                  as="textarea" 
+                  rows={2} 
+                  placeholder="Ej: Lic. en Ciencias de la Computación (UNAM)" 
+                  value={educacion}
+                  onChange={(e) => setEducacion(e.target.value)}
+                />
+              </Form.Group>
+
+              <Button 
+                type="submit" 
+                variant="primary" 
+                className="w-100 rounded-pill d-flex align-items-center justify-content-center gap-2"
+              >
+                <FaDownload /> Descargar CV (.txt)
+              </Button>
+            </Form>
           </Card>
         </Col>
         
