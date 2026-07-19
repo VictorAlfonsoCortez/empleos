@@ -1,4 +1,4 @@
-import vacantesData from '../data/vacantes.json';
+import jobOpeningData from '../data/jobOpening.json';
 import categoriasData from '../data/categorias.json';
 import postulacionesData from '../data/postulaciones.json';
 import candidatoData from '../data/candidato.json';
@@ -9,11 +9,11 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 export const api = {
   getVacantes: async () => {
     await delay(500);
-    return vacantesData;
+    return jobOpeningData;
   },
   getVacanteById: async (id) => {
     await delay(500);
-    const vacante = vacantesData.data.find(v => v.id === id);
+    const vacante = jobOpeningData.data.find(v => v.id === id);
     if (!vacante) throw new Error('Not found');
     return vacante;
   },

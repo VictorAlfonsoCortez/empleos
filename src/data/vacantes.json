@@ -4,11 +4,16 @@
       "id": "v-101",
       "titulo": "Desarrollador Frontend React",
       "empresa": "TechNova Solutions",
-      "logoEmpresa": "https://via.placeholder.com/150/0000FF/808080?Text=TechNova",
+      "logoEmpresa": "/logos/images.jpg",
       "ubicacion": "Ciudad de México, México",
       "modalidad": "Remoto",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 35000, "max": 50000, "moneda": "MXN", "mostrar": true },
+      "salario": {
+        "min": 35000,
+        "max": 50000,
+        "moneda": "MXN",
+        "mostrar": true
+      },
       "categoria": "Tecnología",
       "descripcion": "Buscamos un Desarrollador Frontend con experiencia en React y el ecosistema moderno de JavaScript. Serás responsable de la arquitectura y el desarrollo de nuevas interfaces de usuario, colaborando de cerca con el equipo de diseño y backend para ofrecer una experiencia fluida y escalable.",
       "requisitos": [
@@ -29,11 +34,16 @@
       "id": "v-102",
       "titulo": "Diseñador UX/UI Senior",
       "empresa": "Creative Minds Studio",
-      "logoEmpresa": "https://via.placeholder.com/150/FF0000/FFFFFF?Text=Creative",
+      "logoEmpresa": "/logos/images2.jpg",
       "ubicacion": "Guadalajara, México",
       "modalidad": "Híbrido",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 0, "max": 0, "moneda": "MXN", "mostrar": false },
+      "salario": {
+        "min": 0,
+        "max": 0,
+        "moneda": "MXN",
+        "mostrar": false
+      },
       "categoria": "Diseño",
       "descripcion": "Estamos en búsqueda de un Diseñador UX/UI Senior apasionado por crear experiencias digitales intuitivas y atractivas. Liderarás el diseño de productos desde la conceptualización hasta la entrega, creando wireframes, prototipos interactivos y especificaciones de diseño detalladas.",
       "requisitos": [
@@ -53,11 +63,16 @@
       "id": "v-103",
       "titulo": "Especialista en Marketing Digital",
       "empresa": "Boost Agency",
-      "logoEmpresa": "https://via.placeholder.com/150/00FF00/000000?Text=Boost",
+      "logoEmpresa": "/logos/images3.jpg",
       "ubicacion": "Bogotá, Colombia",
       "modalidad": "Remoto",
       "tipoContrato": "Freelance",
-      "salario": { "min": 1500, "max": 2500, "moneda": "USD", "mostrar": true },
+      "salario": {
+        "min": 1500,
+        "max": 2500,
+        "moneda": "USD",
+        "mostrar": true
+      },
       "categoria": "Marketing",
       "descripcion": "Únete a nuestro equipo como Especialista en Marketing Digital. Tu misión principal será diseñar y ejecutar estrategias de adquisición de clientes a través de múltiples canales, optimizando el ROI y analizando métricas de rendimiento para iterar de manera continua.",
       "requisitos": [
@@ -78,11 +93,16 @@
       "id": "v-104",
       "titulo": "Gerente de Ventas B2B",
       "empresa": "Global Trade Partners",
-      "logoEmpresa": "https://via.placeholder.com/150/FFA500/FFFFFF?Text=GTP",
+      "logoEmpresa": "/logos/images4.png",
       "ubicacion": "Monterrey, México",
       "modalidad": "Presencial",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 40000, "max": 60000, "moneda": "MXN", "mostrar": true },
+      "salario": {
+        "min": 40000,
+        "max": 60000,
+        "moneda": "MXN",
+        "mostrar": true
+      },
       "categoria": "Ventas",
       "descripcion": "Empresa líder en logística busca Gerente de Ventas B2B para liderar nuestro equipo en el norte del país. Buscamos un perfil altamente enfocado en resultados, capaz de abrir nuevas cuentas estratégicas y mantener relaciones sólidas con clientes clave corporativos.",
       "requisitos": [
@@ -102,11 +122,16 @@
       "id": "v-105",
       "titulo": "Backend Node.js Developer",
       "empresa": "Fintech Solutions",
-      "logoEmpresa": "https://via.placeholder.com/150/800080/FFFFFF?Text=Fintech",
+      "logoEmpresa": "/logos/images5.jpg",
       "ubicacion": "Buenos Aires, Argentina",
       "modalidad": "Remoto",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 3000, "max": 4500, "moneda": "USD", "mostrar": true },
+      "salario": {
+        "min": 3000,
+        "max": 4500,
+        "moneda": "USD",
+        "mostrar": true
+      },
       "categoria": "Tecnología",
       "descripcion": "Buscamos un desarrollador backend para integrarse al equipo principal de nuestra plataforma de pagos. Trabajarás diseñando microservicios escalables en Node.js, optimizando consultas a base de datos y garantizando la seguridad de las transacciones financieras.",
       "requisitos": [
@@ -130,7 +155,12 @@
       "ubicacion": "Puebla, México",
       "modalidad": "Presencial",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 12000, "max": 15000, "moneda": "MXN", "mostrar": true },
+      "salario": {
+        "min": 12000,
+        "max": 15000,
+        "moneda": "MXN",
+        "mostrar": true
+      },
       "categoria": "Administración",
       "descripcion": "Despacho contable con más de 20 años de experiencia busca Analista Contable Junior. Ideal para recién egresados que busquen adquirir experiencia en contabilidad general, cálculo de impuestos y manejo de plataformas del SAT.",
       "requisitos": [
@@ -154,7 +184,12 @@
       "ubicacion": "Santiago, Chile",
       "modalidad": "Híbrido",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 0, "max": 0, "moneda": "CLP", "mostrar": false },
+      "salario": {
+        "min": 0,
+        "max": 0,
+        "moneda": "CLP",
+        "mostrar": false
+      },
       "categoria": "Recursos Humanos",
       "descripcion": "Estamos ampliando nuestro equipo y buscamos un Reclutador IT (Headhunter). Serás el encargado de encontrar el mejor talento tecnológico para diversas startups de Latinoamérica. Debes comprender el mercado tecnológico y saber cómo atraer perfiles difíciles.",
       "requisitos": [
@@ -179,7 +214,12 @@
       "ubicacion": "Lima, Perú",
       "modalidad": "Remoto",
       "tipoContrato": "Medio tiempo",
-      "salario": { "min": 500, "max": 800, "moneda": "USD", "mostrar": true },
+      "salario": {
+        "min": 500,
+        "max": 800,
+        "moneda": "USD",
+        "mostrar": true
+      },
       "categoria": "Atención al Cliente",
       "descripcion": "Buscamos representantes de servicio al cliente empáticos y resolutivos. Atenderás consultas de usuarios de diversas plataformas a través de chat, correo electrónico y teléfono. Turnos flexibles disponibles.",
       "requisitos": [
@@ -203,7 +243,12 @@
       "ubicacion": "Ciudad de México, México",
       "modalidad": "Híbrido",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 60000, "max": 85000, "moneda": "MXN", "mostrar": true },
+      "salario": {
+        "min": 60000,
+        "max": 85000,
+        "moneda": "MXN",
+        "mostrar": true
+      },
       "categoria": "Tecnología",
       "descripcion": "Únete a nuestro equipo de analítica avanzada. Estamos en la búsqueda de un Data Scientist apasionado por resolver problemas complejos utilizando aprendizaje automático y análisis estadístico. Trabajarás con grandes volúmenes de datos para predecir tendencias de mercado.",
       "requisitos": [
@@ -227,7 +272,12 @@
       "ubicacion": "Medellín, Colombia",
       "modalidad": "Remoto",
       "tipoContrato": "Por proyecto",
-      "salario": { "min": 0, "max": 0, "moneda": "USD", "mostrar": false },
+      "salario": {
+        "min": 0,
+        "max": 0,
+        "moneda": "USD",
+        "mostrar": false
+      },
       "categoria": "Marketing",
       "descripcion": "Buscamos un copywriter versátil para crear campañas impactantes para nuestros clientes en el sector de estilo de vida. Escribirás desde guiones para video hasta posts en redes sociales y newsletters, siempre manteniendo el tono de voz único de cada marca.",
       "requisitos": [
@@ -251,7 +301,12 @@
       "ubicacion": "Querétaro, México",
       "modalidad": "Presencial",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 25000, "max": 35000, "moneda": "MXN", "mostrar": true },
+      "salario": {
+        "min": 25000,
+        "max": 35000,
+        "moneda": "MXN",
+        "mostrar": true
+      },
       "categoria": "Tecnología",
       "descripcion": "Empresa proveedora de hosting busca Administrador de Sistemas enfocado en entornos Linux. Mantendrás la salud y seguridad de nuestra infraestructura de servidores, resolviendo incidencias técnicas y optimizando el rendimiento general de los sistemas.",
       "requisitos": [
@@ -275,7 +330,12 @@
       "ubicacion": "Ciudad de México, México",
       "modalidad": "Presencial",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 18000, "max": 22000, "moneda": "MXN", "mostrar": true },
+      "salario": {
+        "min": 18000,
+        "max": 22000,
+        "moneda": "MXN",
+        "mostrar": true
+      },
       "categoria": "Administración",
       "descripcion": "Buscamos un(a) Asistente de Dirección bilingüe para dar soporte directo a la Dirección General. Serás pieza clave para la organización del corporativo, gestionando agendas, coordinando reuniones ejecutivas y realizando seguimiento de proyectos internos.",
       "requisitos": [
@@ -299,7 +359,12 @@
       "ubicacion": "Montevideo, Uruguay",
       "modalidad": "Remoto",
       "tipoContrato": "Freelance",
-      "salario": { "min": 0, "max": 0, "moneda": "USD", "mostrar": false },
+      "salario": {
+        "min": 0,
+        "max": 0,
+        "moneda": "USD",
+        "mostrar": false
+      },
       "categoria": "Diseño",
       "descripcion": "Estudio de animación busca ilustrador digital freelance para colaborar en proyectos de series infantiles. Requerimos versatilidad en estilo y capacidad para crear concept art, fondos y diseño de personajes siguiendo una dirección de arte establecida.",
       "requisitos": [
@@ -323,7 +388,12 @@
       "ubicacion": "Monterrey, México",
       "modalidad": "Presencial",
       "tipoContrato": "Medio tiempo",
-      "salario": { "min": 7000, "max": 10000, "moneda": "MXN", "mostrar": true },
+      "salario": {
+        "min": 7000,
+        "max": 10000,
+        "moneda": "MXN",
+        "mostrar": true
+      },
       "categoria": "Atención al Cliente",
       "descripcion": "Buscamos gestores de cobranza telefónica para recuperación de cartera vencida temprana. Ofrecemos sueldo base más comisiones atractivas sin tope por recuperación. Excelente ambiente laboral y plan de crecimiento.",
       "requisitos": [
@@ -347,7 +417,12 @@
       "ubicacion": "Bogotá, Colombia",
       "modalidad": "Híbrido",
       "tipoContrato": "Tiempo completo",
-      "salario": { "min": 2000, "max": 3500, "moneda": "USD", "mostrar": true },
+      "salario": {
+        "min": 2000,
+        "max": 3500,
+        "moneda": "USD",
+        "mostrar": true
+      },
       "categoria": "Ventas",
       "descripcion": "Startup en hipercrecimiento busca un Key Account Manager para manejar nuestras alianzas más importantes con grandes cadenas de restaurantes. Serás el punto principal de contacto, asegurando el éxito de los aliados y maximizando la rentabilidad mutua.",
       "requisitos": [

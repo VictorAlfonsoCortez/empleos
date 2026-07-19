@@ -1,0 +1,151 @@
+{
+    "data": [
+        {
+            "id": "v-101",
+            "titulo": "Desarrollador Frontend React",
+            "empresa": "TechNova Solutions",
+            "logoEmpresa": "/logos/images.jpg",
+            "ubicacion": "Ciudad de México, México",
+            "modalidad": "Remoto",
+            "tipoContrato": "Tiempo completo",
+            "salario": {
+                "min": 35000,
+                "max": 50000,
+                "moneda": "MXN",
+                "mostrar": true
+            },
+            "categoria": "Tecnología",
+            "descripcion": "Buscamos un Desarrollador Frontend con experiencia en React y el ecosistema moderno de JavaScript. Serás responsable de la arquitectura y el desarrollo de nuevas interfaces de usuario, colaborando de cerca con el equipo de diseño y backend para ofrecer una experiencia fluida y escalable.",
+            "requisitos": [
+                "3+ años de experiencia con React.js",
+                "Experiencia con Redux o Context API",
+                "Conocimientos sólidos en HTML5, CSS3 y JavaScript moderno (ES6+)",
+                "Experiencia consumiendo APIs RESTful y GraphQL"
+            ],
+            "responsabilidades": [
+                "Desarrollar componentes de UI reutilizables y escalables",
+                "Optimizar la aplicación para el máximo rendimiento",
+                "Participar en revisiones de código y decisiones de arquitectura"
+            ],
+            "fechaPublicacion": "2026-07-10T09:00:00Z",
+            "fechaCierre": "2026-08-10T23:59:59Z"
+        },
+        {
+            "id": "v-102",
+            "titulo": "Diseñador UX/UI Senior",
+            "empresa": "Creative Minds Studio",
+            "logoEmpresa": "/logos/images2.jpg",
+            "ubicacion": "Guadalajara, México",
+            "modalidad": "Híbrido",
+            "tipoContrato": "Tiempo completo",
+            "salario": {
+                "min": 0,
+                "max": 0,
+                "moneda": "MXN",
+                "mostrar": false
+            },
+            "categoria": "Diseño",
+            "descripcion": "Estamos en búsqueda de un Diseñador UX/UI Senior apasionado por crear experiencias digitales intuitivas y atractivas. Liderarás el diseño de productos desde la conceptualización hasta la entrega, creando wireframes, prototipos interactivos y especificaciones de diseño detalladas.",
+            "requisitos": [
+                "Portafolio sólido demostrando experiencia en UX/UI",
+                "Dominio avanzado de Figma",
+                "Experiencia en investigación de usuarios y pruebas de usabilidad",
+                "Habilidad para trabajar en equipos multidisciplinarios"
+            ],
+            "responsabilidades": [
+                "Crear flujos de usuario, wireframes y prototipos de alta fidelidad",
+                "Colaborar con desarrolladores para asegurar la correcta implementación del diseño",
+                "Mantener y expandir el sistema de diseño de la empresa"
+            ],
+            "fechaPublicacion": "2026-07-08T10:30:00Z"
+        },
+        {
+            "id": "v-103",
+            "titulo": "Especialista en Marketing Digital",
+            "empresa": "Boost Agency",
+            "logoEmpresa": "/logos/images3.jpg",
+            "ubicacion": "Bogotá, Colombia",
+            "modalidad": "Remoto",
+            "tipoContrato": "Freelance",
+            "salario": {
+                "min": 1500,
+                "max": 2500,
+                "moneda": "USD",
+                "mostrar": true
+            },
+            "categoria": "Marketing",
+            "descripcion": "Únete a nuestro equipo como Especialista en Marketing Digital. Tu misión principal será diseñar y ejecutar estrategias de adquisición de clientes a través de múltiples canales, optimizando el ROI y analizando métricas de rendimiento para iterar de manera continua.",
+            "requisitos": [
+                "Experiencia comprobable en Google Ads y Meta Ads",
+                "Conocimiento avanzado de Google Analytics 4",
+                "Capacidad de análisis de datos y creación de reportes",
+                "Excelente redacción y habilidades de comunicación"
+            ],
+            "responsabilidades": [
+                "Gestionar campañas publicitarias en diversas plataformas",
+                "Analizar el rendimiento de las campañas y proponer mejoras",
+                "Trabajar junto al equipo de contenido para alinear mensajes publicitarios"
+            ],
+            "fechaPublicacion": "2026-07-01T15:45:00Z",
+            "fechaCierre": "2026-07-30T23:59:59Z"
+        },
+        {
+            "id": "v-104",
+            "titulo": "Gerente de Ventas B2B",
+            "empresa": "Global Trade Partners",
+            "logoEmpresa": "/logos/image4.png",
+            "ubicacion": "Monterrey, México",
+            "modalidad": "Presencial",
+            "tipoContrato": "Tiempo completo",
+            "salario": {
+                "min": 40000,
+                "max": 60000,
+                "moneda": "MXN",
+                "mostrar": true
+            },
+            "categoria": "Ventas",
+            "descripcion": "Empresa líder en logística busca Gerente de Ventas B2B para liderar nuestro equipo en el norte del país. Buscamos un perfil altamente enfocado en resultados, capaz de abrir nuevas cuentas estratégicas y mantener relaciones sólidas con clientes clave corporativos.",
+            "requisitos": [
+                "Mínimo 5 años de experiencia en ventas B2B corporativas",
+                "Licenciatura en Administración, Negocios o afín",
+                "Excelentes habilidades de negociación y cierre de ventas",
+                "Disponibilidad para viajar"
+            ],
+            "responsabilidades": [
+                "Desarrollar e implementar la estrategia de ventas regional",
+                "Gestionar y capacitar al equipo de ejecutivos de ventas",
+                "Reportar directamente a la dirección comercial los KPIs y forecasts"
+            ],
+            "fechaPublicacion": "2026-06-25T08:00:00Z"
+        },
+        {
+            "id": "v-105",
+            "titulo": "Backend Node.js Developer",
+            "empresa": "Fintech Solutions",
+            "logoEmpresa": "/logos/imagenes5.jpg",
+            "ubicacion": "Buenos Aires, Argentina",
+            "modalidad": "Remoto",
+            "tipoContrato": "Tiempo completo",
+            "salario": {
+                "min": 3000,
+                "max": 4500,
+                "moneda": "USD",
+                "mostrar": true
+            },
+            "categoria": "Tecnología",
+            "descripcion": "Buscamos un desarrollador backend para integrarse al equipo principal de nuestra plataforma de pagos. Trabajarás diseñando microservicios escalables en Node.js, optimizando consultas a base de datos y garantizando la seguridad de las transacciones financieras.",
+            "requisitos": [
+                "Fuerte experiencia en Node.js (Express, NestJS)",
+                "Experiencia trabajando con bases de datos relacionales (PostgreSQL)",
+                "Conocimientos en AWS o Google Cloud",
+                "Experiencia en arquitecturas basadas en microservicios"
+            ],
+            "responsabilidades": [
+                "Diseñar, desarrollar y mantener APIs seguras y eficientes",
+                "Implementar integraciones con pasarelas de pago externas",
+                "Monitorear el rendimiento de los servicios en producción"
+            ],
+            "fechaPublicacion": "2026-07-09T14:20:00Z"
+        }
+    ]
+}
