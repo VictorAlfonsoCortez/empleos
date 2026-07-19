@@ -1,6 +1,7 @@
 import jobOpeningData from '../data/jobOpening.json';
 import categoriasData from '../data/categorias.json';
 import postulacionesData from '../data/postulaciones.json';
+import jobApplicationsData from '../data/jobApplications.json';
 import candidatoData from '../data/candidato.json';
 
 // Simulador de delay de red
@@ -23,7 +24,7 @@ export const api = {
   },
   getPostulaciones: async () => {
     await delay(500);
-    return postulacionesData;
+    return jobApplicationsData;
   },
   getCandidato: async () => {
     await delay(300);

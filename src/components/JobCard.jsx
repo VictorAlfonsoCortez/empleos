@@ -18,9 +18,9 @@ const JobCard = ({ job }) => {
               </Link>
               <p className="text-muted mb-2 small">{job.empresa}</p>
             </div>
-            <Badge className="badge-custom">{job.categoria}</Badge>
+            <Badge bg="primary">{job.categoria}</Badge>
           </div>
-          
+
           <div className="d-flex flex-wrap gap-3 text-muted small mt-2">
             <span className="d-flex align-items-center gap-1">
               <FaMapMarkerAlt /> {job.ubicacion} ({job.modalidad})

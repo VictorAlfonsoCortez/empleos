@@ -44,7 +44,7 @@ const JobDetail = () => {
                 <div>
                   <h2 className="fw-bold mb-1">{job.titulo}</h2>
                   <h5 className="text-muted mb-2">{job.empresa}</h5>
-                  <Badge className="badge-secondary-custom px-3 py-2 rounded-pill">{job.categoria}</Badge>
+                  <Badge bg="primary">{job.categoria}</Badge>
                 </div>
               </div>
 
@@ -84,13 +84,13 @@ const JobDetail = () => {
             </Card.Body>
           </Card>
         </Col>
-        
+
         <Col lg={4}>
           <Card className="border-0 shadow-sm rounded-4 sticky-top" style={{ top: '100px' }}>
             <Card.Body className="p-4">
               <h5 className="fw-bold mb-3">Resumen de la empresa</h5>
               <p className="text-muted small mb-4">{job.empresa} es una de las empresas líderes en el sector de {job.categoria}.</p>
-              
+
               <Button variant="primary" size="lg" className="btn-primary-custom w-100 rounded-pill mb-3">
                 Postularme Ahora
               </Button>
