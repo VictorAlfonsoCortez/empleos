@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "id": "post-001",
+            "vacanteId": "v-101",
+            "candidatoId": "c-2024-001",
+            "fechaPostulacion": "2024-10-01T10:00:00Z",
+            "estatus": "En revisión",
+            "cartaPresentacion": "Estimados señores, adjunto mi CV para su consideración."
+        },
+        {
+            "id": "post-002",
+            "vacanteId": "v-102",
+            "candidatoId": "c-2024-001",
+            "fechaPostulacion": "2024-10-02T10:00:00Z",
+            "estatus": "En revisión",
+            "cartaPresentacion": "Estimados señores, adjunto mi CV para su consideración."
+        },
+        {
+            "id": "post-003",
+            "vacanteId": "v-103",
+            "candidatoId": "c-2024-001",
+            "fechaPostulacion": "2024-10-03T10:00:00Z",
+            "estatus": "En revisión",
+            "cartaPresentacion": "Estimados señores, adjunto mi CV para su consideración."
+        }
+    ],
+    "total": 3,
+    "page": 1,
+    "limit": 10
+}
