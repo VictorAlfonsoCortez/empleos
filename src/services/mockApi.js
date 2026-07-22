@@ -1,33 +1,12 @@
-import jobOpeningData from '../data/jobOpening.json';
-import categoriasData from '../data/categorias.json';
-import postulacionesData from '../data/postulaciones.json';
-import jobApplicationsData from '../data/jobApplications.json';
-import candidatoData from '../data/candidato.json';
+import { jobService } from './jobService';
+import { candidateService } from './candidateService';
+import { applicationService } from './applicationService';
 
-// Simulador de delay de red
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
+// Facade de compatibilidad hacia atrás
 export const api = {
-  getVacantes: async () => {
-    await delay(500);
-    return jobOpeningData;
-  },
-  getVacanteById: async (id) => {
-    await delay(500);
-    const vacante = jobOpeningData.data.find(v => v.id === id);
-    if (!vacante) throw new Error('Not found');
-    return vacante;
-  },
-  getCategorias: async () => {
-    await delay(300);
-    return categoriasData;
-  },
-  getPostulaciones: async () => {
-    await delay(500);
-    return jobApplicationsData;
-  },
-  getCandidato: async () => {
-    await delay(300);
-    return candidatoData;
-  }
+  getVacantes: (filters) => jobService.getVacantes(filters),
+  getVacanteById: (id) => jobService.getVacanteById(id),
+  getCategorias: () => jobService.getCategorias(),
+  getPostulaciones: () => applicationService.getApplications(),
+  getCandidato: () => candidateService.getProfile()
 };
